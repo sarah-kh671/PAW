@@ -6,23 +6,88 @@
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
-body{font-family:Arial,sans-serif;margin:20px;background:#f9f9f9;}
-nav{background:#0077cc;padding:10px;border-radius:8px;}
-nav a{color:#fff;margin:0 10px;text-decoration:none;}
-table{border-collapse:collapse;width:100%;margin-top:20px;background:#fff;}
-th,td{border:1px solid #ccc;padding:6px;text-align:center;font-size:14px;}
+/* ---------- Base (Mobile First) ---------- */
+body{
+  font-family:Arial,sans-serif;
+  margin:10px;
+  background:#f9f9f9;
+  font-size:14px;
+}
+nav{
+  background:#0077cc;
+  padding:10px;
+  border-radius:8px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+nav a{
+  color:#fff;
+  text-decoration:none;
+  padding:6px 8px;
+  border-radius:5px;
+  background:#0090ff;
+  text-align:center;
+}
+nav a:hover{background:#005fa3;}
+table{
+  border-collapse:collapse;
+  width:100%;
+  margin-top:15px;
+  background:#fff;
+  font-size:13px;
+  overflow-x:auto;
+  display:block; /* mobile scroll */
+  white-space:nowrap;
+}
+th,td{border:1px solid #ccc;padding:5px;text-align:center;}
 th{background:#0077cc;color:#fff;}
 .green{background:#c8e6c9;}
 .yellow{background:#fff9c4;}
 .red{background:#ffcdd2;}
-form{background:#fff;padding:15px;margin-top:20px;border-radius:8px;}
-.error{color:red;font-size:0.9em;display:block;margin-bottom:8px;}
-#message{color:green;font-weight:bold;margin-top:10px;min-height:1.1em;}
-#report{margin-top:20px;background:#fff;padding:10px;border-radius:8px;display:flex;gap:12px;align-items:center;}
-.chart-box{width:150px;height:150px;}
-.chart-box canvas{width:150px!important;height:150px!important;}
-button{margin-top:8px;margin-right:6px;}
+form{
+  background:#fff;
+  padding:12px;
+  margin-top:15px;
+  border-radius:8px;
+}
+.error{color:red;font-size:0.85em;display:block;margin-bottom:6px;}
+#message{color:green;font-weight:bold;margin-top:8px;min-height:1.1em;}
+#report{
+  margin-top:15px;
+  background:#fff;
+  padding:8px;
+  border-radius:8px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+.chart-box{width:140px;height:140px;}
+.chart-box canvas{width:140px!important;height:140px!important;}
+button{
+  margin-top:6px;
+  margin-right:6px;
+  padding:6px 10px;
+  border:none;
+  background:#0077cc;
+  color:#fff;
+  border-radius:5px;
+  cursor:pointer;
+}
+button:hover{background:#005fa3;}
+/* ---------- Tablet & Desktop ---------- */
+@media(min-width:769px){
+  body{font-size:15px;margin:20px;}
+  nav{flex-direction:row;justify-content:center;}
+  nav a{background:none;padding:8px 12px;}
+  table{display:table;white-space:normal;}
+  #report{flex-direction:row;justify-content:center;}
+  .chart-box{width:180px;height:180px;}
+  .chart-box canvas{width:180px!important;height:180px!important;}
+}
 </style>
+
 </head>
 <body>
 
