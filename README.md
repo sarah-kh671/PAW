@@ -9,7 +9,7 @@
 ## Version 3 — Nov 9, 2025
 [View code](version3/index.html)
 
-## Version 4 — Nov 13, 2025(DELETED)
+## Version 4 — Nov 13, 2025 (DELETED)
 [View code](version4/index.html) 
 
 ## Version 5 — Nov 17, 2025 (DELETED)
