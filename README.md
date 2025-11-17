@@ -14,3 +14,5 @@
 
 ## Version 5 — Nov 17, 2025 (Latest)
 [View code](version5/index.html)
+## the design of attendance system
+Check the design here: [Figma Deck](https://www.figma.com/deck/GZAkFNogoh2EVFAqb79Ouj/Untitled?node-id=1-6&t=KYHmQtsW2j2g5lVq-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
