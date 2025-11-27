@@ -16,5 +16,6 @@
 [View code](version5/index.html) 
 ## the design of attendance system
 Check the design here: [Figma Deck](https://www.figma.com/deck/GZAkFNogoh2EVFAqb79Ouj/Untitled?node-id=1-6&t=KYHmQtsW2j2g5lVq-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
-##the design of figma for final assignment:
+## the design of attendance system
+https://pulp-decor-28605407.figma.site
 https://pulp-decor-28605407.figma.site
